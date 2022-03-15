@@ -1,0 +1,104 @@
+.centered-container {
+  width: 30rem;
+  margin: auto;
+}
+
+.title {
+  margin: auto;
+  width: 12rem;
+  height: 4rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  padding: 0rem 2rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.top-button {
+  /* sticky to bottom right */
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+
+  /* make it a circle */
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 2.5rem;
+  height: 2.5rem;
+
+  /* center text */
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2.5rem;
+}
+
+.with-cat {
+  display: inline-block;
+  position: relative;
+  top: -3rem;
+  left: 9rem;
+  transform: rotate(-20deg);
+}
+
+@media (max-width: 320px) {
+ html {
+    font-size: 7px;
+  }
+}
+
+@media (min-width: 320px) {
+ html {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 350px) {
+ html {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 375px) {
+ html {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 490px) {
+ html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+} 
